@@ -1,0 +1,15 @@
+fromNo12        True
+from#12         False
+my_Boolean      True
+my-Boolean      False
+Obj2            True
+2ndObj          False
+myInt           True
+My_tExt         True
+_test           True
+test!32         False
+haha(da)tt      False
+jack_rose       True
+jack&rose       False
+GUI             True
+G.U.I           False
