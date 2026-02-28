@@ -20,5 +20,7 @@ if not is_employee:
 # 逻辑表达式(逻辑运算符)
 # and 两个条件都为True
 # or  一个条件为True即可
-# not True -> False   False -> True
+# not True -> False   not False -> True
+
+print(12 < 2)
 
