@@ -58,6 +58,24 @@ print(various_times)
 month.extend(season)
 print(month)
 print(season)
+print("--------------------")
+
+rainbow = ['rouge', 'orange', 'jaune', 'vert', 'bleu', 'indigo', 'violet']
+print(rainbow)
+print(len(rainbow))
+# 切片 取前不取后
+print(rainbow[1:4])
+# 如果要一直取到列表最后的元素 就可以省略切片的结束index
+print(rainbow[3:])  # print(rainbow[3:8])
+# 如果要从列表开头取元素 可以省略切片的开始index
+print(rainbow[:6])  # print(rainbow[0:6])
+print(rainbow[:])   # print(rainbow[0:8])
+print("--------------------")
+print(rainbow[-1])  # print(rainbow[6])
+print(rainbow[2:6])
+print(rainbow[-5:-1])
+
+
 
 
 
