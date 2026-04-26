@@ -12,3 +12,9 @@ def sum(a, b):
 
 result = sum(3, 2)
 print(result)
+
+result2 = sum(6, 8)
+print(result2)
+
+result3 = result + result2
+print(result3)
