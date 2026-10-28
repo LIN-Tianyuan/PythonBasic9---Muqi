@@ -7,7 +7,7 @@ welcome(name)
 """
 
 def welcome():
-    name = str(input("Merci de contacter Thibault! Je peux avoir votre prénom? "))
+    name = input("Merci de contacter Thibault! Je peux avoir votre prénom? ")
     print("Bienvenue chez Thibault, " + name + "!")
     return
 
@@ -55,6 +55,14 @@ def service_marketing():
     transfer_raoul()
     return
 
+def transfer_therese():
+    other_info = input("De quoi aimeriez-vous nous informer?")
+    return
+
+def others():
+    transfer_therese()
+    return
+
 def choose_category():
     print("*** Menu général Thibault ***\n"
           "[1] Horaires & Accès \n"
@@ -75,6 +83,10 @@ def choose_category():
     if category == 4:
         # Suggestion de produit
         service_marketing()
+    if category == 5:
+        others()
+
+    return
 
 
 welcome()
